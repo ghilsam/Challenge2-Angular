@@ -1,4 +1,3 @@
-<style>
 .top-left {
   position: absolute;
   top: 0;
@@ -26,15 +25,3 @@
   border: solid black;
   padding: 5px;
 }
-</style>
-<app-block class="top-left"></app-block>
-<app-block class="top-right"></app-block>
-<app-block class="bottom-left"></app-block>
-<app-block class="bottom-right"></app-block>
-<br>
-<br>
-
-<h1>{{title}}</h1>
-<!-- <app-heroes></app-heroes> -->
-
-<router-outlet></router-outlet>
